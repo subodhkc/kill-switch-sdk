@@ -1,0 +1,46 @@
+{
+  "name": "@haiec/kill-switch-sdk",
+  "version": "0.1.2",
+  "description": "5-layer AI system kill switch with automated compliance monitoring",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "kill-switch",
+    "compliance",
+    "eu-ai-act",
+    "monitoring",
+    "safety",
+    "circuit-breaker",
+    "throttling"
+  ],
+  "author": "Subodh Kc <subodhkc.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subodhkc/kill-switch-sdk.git"
+  },
+  "homepage": "https://haiec.com/kill-switch",
+  "bugs": {
+    "url": "https://github.com/subodhkc/kill-switch-sdk/issues"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "typescript": ">=4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
