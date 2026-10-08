@@ -1,6 +1,6 @@
 {
   "name": "@haiec/kill-switch-sdk",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "5-layer AI system kill switch with automated compliance monitoring",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
